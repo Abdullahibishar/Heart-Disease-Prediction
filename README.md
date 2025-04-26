@@ -75,7 +75,7 @@ It improves its predictions by learning from previous mistakes and is known for 
 
 ---
 
-✅ **This version will now properly render:**
+✅ This version will now properly render:
 - Correct spacing
 - Bullet points neat
 - SHAP section readable
@@ -83,5 +83,5 @@ It improves its predictions by learning from previous mistakes and is known for 
 - Headings consistent
 - Professional appearance 📋
 
----
+
 
