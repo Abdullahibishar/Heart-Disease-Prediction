@@ -1,18 +1,18 @@
-```markdown
-# 💓 Heart Disease Prediction App
+
+ 💓 Heart Disease Prediction App
 
 This project is a web application that predicts the risk of heart disease based on a patient's medical data.  
 It uses a trained **XGBoost** machine learning model and provides visual explanations using **SHAP**.
 
 ---
 
-## 📋 Project Overview
+ 📋 Project Overview
 
 - Users input patient details such as age, cholesterol level, blood pressure, etc.
 - The trained model predicts whether the patient has a high or low risk of heart disease.
 - SHAP plots explain how each feature contributed to the prediction.
 
-### 🧠 How to Understand the SHAP Chart
+🧠 How to Understand the SHAP Chart
 
 - 🔴 **Red bars** push the prediction toward higher heart disease risk.
 - 🔵 **Blue bars** push the prediction toward lower heart disease risk.
@@ -21,7 +21,7 @@ It uses a trained **XGBoost** machine learning model and provides visual explana
 
 ---
 
-## 🚀 How to Run the App Locally
+ 🚀 How to Run the App Locally
 
 1. Clone this repository:
    ```bash
@@ -41,7 +41,7 @@ It uses a trained **XGBoost** machine learning model and provides visual explana
 
 ---
 
-## 🛠 Project Files
+ 🛠 Project Files
 
 | File                      | Description                           |
 |----------------------------|---------------------------------------|
@@ -55,14 +55,14 @@ It uses a trained **XGBoost** machine learning model and provides visual explana
 
 ---
 
-## 📚 About XGBoost
+ 📚 About XGBoost
 
 **XGBoost (Extreme Gradient Boosting)** is a fast and powerful machine learning algorithm that builds models step-by-step.  
 It improves its predictions by learning from previous mistakes and is known for its high performance in real-world problems.
 
 ---
 
-## ❤️ Built With
+❤️ Built With
 
 - Streamlit
 - XGBoost
