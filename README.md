@@ -60,3 +60,5 @@ Matplotlib
 - Table properly aligned and spaced
 - Headings consistent
 - Professional appearance 📋
+
+
