@@ -4,7 +4,7 @@
 This project is a web application that predicts the risk of heart disease based on a patient's medical data.  
 It uses a trained **XGBoost** machine learning model and provides visual explanations using **SHAP**.
 
-
+---
 
 ## 📋 Project Overview
 
@@ -13,11 +13,13 @@ It uses a trained **XGBoost** machine learning model and provides visual explana
 - SHAP plots explain how each feature contributed to the prediction.
 
 ### 🧠 How to Understand the SHAP Chart
+
 - 🔴 **Red bars** push the prediction toward higher heart disease risk.
 - 🔵 **Blue bars** push the prediction toward lower heart disease risk.
 - The longer the bar, the stronger its influence on the model's decision.
 - Top features are the most important in an individual prediction.
 
+---
 
 ## 🚀 How to Run the App Locally
 
@@ -37,26 +39,49 @@ It uses a trained **XGBoost** machine learning model and provides visual explana
    streamlit run app.py
    ```
 
-
+---
 
 ## 🛠 Project Files
 
-| File                     | Description                          |
-|---------------------------|--------------------------------------|
-| `app.py`                  | Streamlit app interface              |
-| `best_xgb_model.pkl`       | Trained XGBoost machine learning model |
-| `scaler.pkl`              | Scaler for feature normalization    |
-| `heart_disease_dataset.csv` | Dataset used for training          |
-| `capstone.ipynb`           | Jupyter Notebook for training process |
-| `requirements.txt`         | Python libraries required          |
-| `README.md`               | Project documentation               |
+| File                      | Description                           |
+|----------------------------|---------------------------------------|
+| `app.py`                   | Streamlit app interface               |
+| `best_xgb_model.pkl`        | Trained XGBoost machine learning model |
+| `scaler.pkl`                | Scaler for feature normalization     |
+| `heart_disease_dataset.csv` | Dataset used for model training       |
+| `capstone.ipynb`            | Notebook showing model building      |
+| `requirements.txt`          | Required Python libraries            |
+| `README.md`                 | Project documentation                |
 
+---
 
 ## 📚 About XGBoost
 
-**XGBoost (Extreme Gradient Boosting)** is a fast and accurate machine learning algorithm that builds models in stages.  
-It improves itself by learning from past mistakes and is widely used in real-world problems because of its excellent performance.
+**XGBoost (Extreme Gradient Boosting)** is a fast and powerful machine learning algorithm that builds models step-by-step.  
+It improves its predictions by learning from previous mistakes and is known for its high performance in real-world problems.
 
+---
 
 ## ❤️ Built With
-Streamlit, XGBoost, SHAP, Scikit-learn, NumPy, Pandas, and Matplotlib.
+
+- Streamlit
+- XGBoost
+- SHAP
+- Scikit-learn
+- NumPy
+- Pandas
+- Matplotlib
+```
+
+---
+
+✅ **This version will now properly render:**
+- Correct spacing
+- Bullet points neat
+- SHAP section readable
+- Table properly aligned and spaced
+- Headings consistent
+- Professional appearance 📋
+
+---
+
